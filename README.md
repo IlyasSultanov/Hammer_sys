@@ -19,7 +19,7 @@
 
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/ваш-репозиторий.git
+https://github.com/IlyasSultanov/Hammer_sys.git
 cd hammer-sys
 
 python -m venv venv
