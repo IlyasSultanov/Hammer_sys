@@ -36,6 +36,7 @@ class User(AbstractUser):
             'email': self.email
         })
 
+        """Отправка кода в email для активаций"""
         send_mail(
             subject,
             message,
