@@ -1,0 +1,16 @@
+<!-- app/templates/verification_email.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Подтверждение регистрации</title>
+</head>
+<body>
+    <h2>Добро пожаловать, {{ user.username }}!</h2>
+    <p>Ваш код подтверждения: <strong>{{ code }}</strong></p>
+    <p>Или перейдите по ссылке:</p>
+    <a href="http://yourdomain.com/verify/?code={{ code }}&email={{ user.email }}">
+        Подтвердить email
+    </a>
+    <p>Если вы не регистрировались, проигнорируйте это письмо.</p>
+</body>
+</html>
